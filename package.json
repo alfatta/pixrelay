@@ -1,0 +1,22 @@
+{
+  "name": "pixrelay",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "@fastify/static": "^7.0.0",
+    "axios": "^1.9.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.0",
+    "mkdirp": "^3.0.1",
+    "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
